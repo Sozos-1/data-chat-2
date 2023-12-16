@@ -1,8 +1,8 @@
 from langchain.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-CHUNK_SIZE = 1028
-CHUNK_OVERLAP = 100
+CHUNK_SIZE = 400
+CHUNK_OVERLAP = 80
 
 class DocumentSplitter:
     def create_chunks(self):
